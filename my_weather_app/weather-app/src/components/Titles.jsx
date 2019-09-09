@@ -1,0 +1,17 @@
+import React from 'react';
+
+
+class Titles extends React.Component {
+    render() {
+        return (
+            <div>
+                {/* Titles that displays the weather finder title */}
+                <h1 className="title-container__title">Weather Finder</h1>
+                <p className="title-container__subtitle">find out temperature, conditions and more...</p>
+            </div>
+        )
+    }
+}
+
+
+export default Titles
